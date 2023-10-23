@@ -1,0 +1,5 @@
+featured:
+- {author: 'Hyunsub Song, Shean Kim, J. Hyun Kim, Ethan JH Park and Sam H. Noh', title: 'First Responder: Persistent Memory Simultaneously as High Performance Buffer Cache and Storage', conference: '2021 USENIX Annual Technical Conference (USENIX ATC 21)', url: 'https://www.usenix.org/system/files/atc21-song.pdf'}
+
+index:
+- {name: 'Hyunsub Song, Shean Kim, J. Hyun Kim, Ethan JH Park and Sam H. Noh, First Responder: Persistent Memory Simultaneously as High Performance Buffer Cache and Storage, 2021 USENIX Annual Technical Conference (USENIX ATC 21)', url: 'https://www.usenix.org/system/files/atc21-song.pdf'}

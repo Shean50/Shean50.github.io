@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="row g-1 mb-5">
+  <h3 class="fw-bold border-bottom pb-3 mb-5">About</h3>
+  <div class="col-md-9 fs-6">
+    {{ content }}
+  </div>
+  <div class="col-md-3">
+    <img src="{{ site.github.url }}/assets/img/shean.jpg" alt="Shean" width="75%">
+  </div>
+  <div class="fs-6 fw-bold">
+    {% for item in site.data.cv.cv %}
+      <span> <font color="#900020">
+      For the most up-to-date information, please refer to my 
+      <a href="{{ item.url }}">
+       {{ item.cv }}
+      </a>
+    </span> </font>
+    {% endfor %} 
+  </div>
+</div>
+
+{% include publications.html %}
+
+<!-- <div class="row g-5 mb-5">
+  <div class="col-md-12">
+    <h3 class="fw-bold border-bottom pb-3 mb-5">News</h3>
+    {% for post in site.posts %}
+      <p><a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%B %-d, %Y" }}</p>
+    {% endfor %}
+  </div>
+</div> -->

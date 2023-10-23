@@ -1,0 +1,19 @@
+menu:
+- {name: 'home', url: '/'}
+- {name: 'publications', url: '/publications'}
+# - {name: 'courses', url: '/courses'}
+- {name: 'cv', url: '/cv'}
+- {name: 'contact', url: '/contact'}
+
+# courses:
+# - {name: 'Vector Calculus', url: 'vector-calculus'}
+# - {name: 'Quantum Mechanics', url: 'quantum-mechanics'}
+# - {name: 'Stellar Structures', url: 'stellar-structures'}
+
+social:
+- {icon: 'github', link: 'https://github.com/Shean50'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/shean1031'}
+- {icon: 'google', link: 'mailto:shean@vt.edu'}
+
+contacts:
+- {name: 'Shean Kim', title: 'Ph.D. candidate', department: 'Computer Science', institution: 'Virginia Tech', email: 'shean@vt.edu', office: 'Gilbert Place, 4111', image: 'assets/img/contact.jpg'}
